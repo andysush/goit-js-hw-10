@@ -18,3 +18,40 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+li {
+  list-style: none;
+}
+
+.list__item {
+  display: flex;
+  align-items: center;
+}
+
+.list__title {
+  font-weight: 500;
+  font-size: 25;
+  margin: 10px 15px;
+}
+
+.info__thumb {
+  display: flex;
+  align-items: center;
+}
+
+.info__title {
+  margin: 15px;
+  font-weight: 700;
+  font-size: 50;
+}
+
+.info__list {
+  font-size: 20;
+  line-height: 2;
+  margin: 0;
+  padding-left: 0;
+}
+
+.info__part {
+  font-weight: 700;
+}
